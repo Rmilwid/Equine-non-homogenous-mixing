@@ -536,5 +536,5 @@ sim <- netsim(est1, param, init, control)
 
 s1<-as.data.frame(sim) #mean across sims
 ##export mean values to csv
-write.csv(s1,file="C:/Users/a/Documents/PhD/thesis/thesis doc/Thesis articles/comparing mutiple farms influenza/quar_0_vac_25_homogenous matrix.csv")
+write.csv(s1,file="quar_0_vac_25_homogenous matrix.csv")
 
