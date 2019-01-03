@@ -3,7 +3,7 @@ library(networkDynamicData)
 library(igraph)
 library(intergraph)
 library(xlsx)
-setwd("C:/Users/a/Documents/PhD/thesis/thesis doc/Thesis articles/comparing mutiple farms influenza/complete network")
+setwd("")
 
 nw1<-make_full_graph(24,directed = F,loops=F)
 
