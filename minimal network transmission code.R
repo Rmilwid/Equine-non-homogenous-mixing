@@ -1,7 +1,7 @@
 require(EpiModel)
 #assume average population size and average degree from data:
 #average population size= (20+28+26+24)/4=24.5=24
-setwd("C:/Users/a/Documents/PhD/thesis/thesis doc/Thesis articles/comparing mutiple farms influenza/network with degree 4/")
+setwd("")
 initialize.net.A <- function(x, param, init, control, s) {
   
   if (control$start == 1) {
